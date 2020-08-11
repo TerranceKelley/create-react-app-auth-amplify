@@ -29,6 +29,4 @@ class App extends Component {
   }
 }
 
-export default withAuthenticator(App, false)[<AmplifyAuthenticator>
-  <AmplifySignIn slot="sign-in" hideSignUp></AmplifySignIn>
-</AmplifyAuthenticator>];
+export default withAuthenticator(App, true);
